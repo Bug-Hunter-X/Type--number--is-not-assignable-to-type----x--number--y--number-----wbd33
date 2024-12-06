@@ -1,0 +1,1 @@
+This bug demonstrates a common error in TypeScript related to type checking when passing arguments to functions. The function `printCoord` expects an object with properties `x` and `y`, both of type `number`. However, if you try to pass it a `number` instead, TypeScript will throw an error because the types are incompatible.
